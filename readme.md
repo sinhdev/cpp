@@ -7,10 +7,10 @@ C++ Programming Language Demo
 
 ### Prerequisites
 
-Install [Visual Studio Code](https://code.visualstudio.com)
 
 ### Installing
 
+Install [Visual Studio Code](https://code.visualstudio.com)
 
 ## Running the tests
 
