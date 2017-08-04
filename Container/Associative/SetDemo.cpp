@@ -8,6 +8,7 @@ int main(int count, const char* args[]){
     setOfStrings.insert("first");
     setOfStrings.insert("second");
     setOfStrings.insert("third");
+    setOfStrings.insert("abc");
     setOfStrings.insert("first");
 
     //print set

@@ -12,6 +12,8 @@
         "string": "cpp",
         "vector": "cpp",
         "memory": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "__split_buffer": "cpp",
+        "deque": "cpp"
     }
 }
