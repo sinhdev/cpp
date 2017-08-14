@@ -23,4 +23,3 @@ int main(int count, const char* args[]) {
    }	
    pthread_exit(NULL);
 }
-
