@@ -21,6 +21,8 @@
         "iterator": "cpp",
         "stack": "cpp",
         "iosfwd": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "algorithm": "cpp",
+        "thread": "cpp"
     }
 }
