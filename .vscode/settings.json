@@ -23,6 +23,7 @@
         "iosfwd": "cpp",
         "ostream": "cpp",
         "algorithm": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "chrono": "cpp"
     }
 }

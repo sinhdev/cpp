@@ -2,9 +2,8 @@
 #include <thread>
 using namespace std;
 
-void thread_function(){
-    cout<<"Inside Thread :: ID  = "<<this_thread::get_id()<<endl;    
-}
+void thread_function();
+
 int main(int count, const char* args[]){
     thread threadObj1(thread_function);
     thread threadObj2(thread_function);
@@ -18,4 +17,7 @@ int main(int count, const char* args[]){
     threadObj1.join();    
     threadObj2.join();    
     return 0;
+}
+void thread_function(){
+    cout<<"Inside Thread :: ID  = "<<this_thread::get_id()<<endl;    
 }

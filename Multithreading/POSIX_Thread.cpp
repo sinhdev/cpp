@@ -3,12 +3,7 @@
 using namespace std;
 #define NUM_THREADS     5
 
-void *PrintHello(void *threadid) {
-   long tid;
-   tid = (long)threadid;
-   cout << "Hello World! Thread ID, " << tid << endl;
-   pthread_exit(NULL);
-}
+void *PrintHello(void *threadid);
 int main(int count, const char* args[]) {
    pthread_t threads[NUM_THREADS];
    int rc;
@@ -21,5 +16,11 @@ int main(int count, const char* args[]) {
          exit(-1);
       }
    }	
+   pthread_exit(NULL);
+}
+void *PrintHello(void *threadid) {
+   long tid;
+   tid = (long)threadid;
+   cout << "Hello World! Thread ID, " << tid << endl;
    pthread_exit(NULL);
 }
